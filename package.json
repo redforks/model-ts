@@ -1,12 +1,17 @@
 {
-  "name": "ts-model",
+  "name": "model-ts",
   "version": "1.0.0",
   "description": "Common model types",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Red Forks <redforks@gmail.com> (http://forks.red)",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "tsc"
+  },
   "devDependencies": {
+    "@types/jest": "^23.3.9",
     "jest": "^23.6.0",
     "mytslint": "^1.1.1",
     "ts-jest": "^23.10.5",

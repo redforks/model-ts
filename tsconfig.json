@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/mytslint/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "outDir": "./lib"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/**/*.test.*"]
+}
